@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.01-Connect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.02-CreateDatabase", "CodeCamp.SmoDemo.02-CreateDatabase\CodeCamp.SmoDemo.02-CreateDatabase.csproj", "{76384767-9758-42CF-BD96-CD4094C35A29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.03-CreateTables", "CodeCamp.SmoDemo.03-CreateTables\CodeCamp.SmoDemo.03-CreateTables.csproj", "{5DF646A1-4613-460F-BCF4-952C6E976C58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{76384767-9758-42CF-BD96-CD4094C35A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76384767-9758-42CF-BD96-CD4094C35A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76384767-9758-42CF-BD96-CD4094C35A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
