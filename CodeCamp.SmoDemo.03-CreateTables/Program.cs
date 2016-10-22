@@ -17,6 +17,9 @@ namespace CodeCamp.SmoDemo._03_CreateTables
 
             CreateCustomerTable(database);
             CreatePurchaseOrderTable(database);
+
+            Console.WriteLine("Finished");
+            Console.ReadKey();
         }
 
         private static void CreatePurchaseOrderTable(Database database)

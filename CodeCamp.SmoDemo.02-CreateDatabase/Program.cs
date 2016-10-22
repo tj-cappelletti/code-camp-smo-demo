@@ -56,6 +56,9 @@ namespace CodeCamp.SmoDemo._02_CreateDatabase
             server.Databases.Add(database);
 
             database.Create();
+
+            Console.WriteLine("Finished");
+            Console.ReadKey();
         }
     }
 }
