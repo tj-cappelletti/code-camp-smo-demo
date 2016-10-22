@@ -35,7 +35,7 @@ namespace CodeCamp.SmoDemo._06_Restore
                 restore.Database = database.Name;
                 restore.PercentComplete += Restore_PercentComplete;
                 restore.PercentCompleteNotification = 10;
-                restore.NoRecovery = true;
+                restore.NoRecovery = false;
                 restore.ReplaceDatabase = true;
 
                 foreach(var file in Directory.GetFiles(server.BackupDirectory, database.Name + "*.bak"))
