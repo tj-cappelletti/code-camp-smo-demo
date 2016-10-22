@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.02-CreateD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.03-CreateTables", "CodeCamp.SmoDemo.03-CreateTables\CodeCamp.SmoDemo.03-CreateTables.csproj", "{5DF646A1-4613-460F-BCF4-952C6E976C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.04-ScriptingObjects", "CodeCamp.SmoDemo.04-ScriptingObjects\CodeCamp.SmoDemo.04-ScriptingObjects.csproj", "{529EAD2D-3D6C-42E2-A543-8BCEA4D84034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.05-Backup", "CodeCamp.SmoDemo.05-Backup\CodeCamp.SmoDemo.05-Backup.csproj", "{CE822F10-ECE6-45F7-B844-AE7D8A46B75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.06-Restore", "CodeCamp.SmoDemo.06-Restore\CodeCamp.SmoDemo.06-Restore.csproj", "{EEFA01C7-DA45-429E-A6AD-1618EAEA6AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.07-RunningProcesses", "CodeCamp.SmoDemo.07-RunningProcesses\CodeCamp.SmoDemo.07-RunningProcesses.csproj", "{5096D71F-53A6-474C-9ECB-7CDBDB064F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.08-Jobs", "CodeCamp.SmoDemo.08-Jobs\CodeCamp.SmoDemo.08-Jobs.csproj", "{C3746B9C-1DAA-4F8B-BE45-4F3B1F140AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCamp.SmoDemo.09-GuiDemo", "CodeCamp.SmoDemo.09-GuiDemo\CodeCamp.SmoDemo.09-GuiDemo.csproj", "{1C7D4F48-BA45-4D7F-924C-E7B42EF9BE49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +39,30 @@ Global
 		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DF646A1-4613-460F-BCF4-952C6E976C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529EAD2D-3D6C-42E2-A543-8BCEA4D84034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529EAD2D-3D6C-42E2-A543-8BCEA4D84034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529EAD2D-3D6C-42E2-A543-8BCEA4D84034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529EAD2D-3D6C-42E2-A543-8BCEA4D84034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE822F10-ECE6-45F7-B844-AE7D8A46B75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE822F10-ECE6-45F7-B844-AE7D8A46B75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE822F10-ECE6-45F7-B844-AE7D8A46B75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE822F10-ECE6-45F7-B844-AE7D8A46B75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFA01C7-DA45-429E-A6AD-1618EAEA6AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFA01C7-DA45-429E-A6AD-1618EAEA6AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFA01C7-DA45-429E-A6AD-1618EAEA6AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFA01C7-DA45-429E-A6AD-1618EAEA6AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5096D71F-53A6-474C-9ECB-7CDBDB064F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5096D71F-53A6-474C-9ECB-7CDBDB064F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5096D71F-53A6-474C-9ECB-7CDBDB064F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5096D71F-53A6-474C-9ECB-7CDBDB064F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3746B9C-1DAA-4F8B-BE45-4F3B1F140AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3746B9C-1DAA-4F8B-BE45-4F3B1F140AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3746B9C-1DAA-4F8B-BE45-4F3B1F140AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3746B9C-1DAA-4F8B-BE45-4F3B1F140AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7D4F48-BA45-4D7F-924C-E7B42EF9BE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7D4F48-BA45-4D7F-924C-E7B42EF9BE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7D4F48-BA45-4D7F-924C-E7B42EF9BE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7D4F48-BA45-4D7F-924C-E7B42EF9BE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
